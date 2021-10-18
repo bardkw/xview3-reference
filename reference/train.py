@@ -229,7 +229,8 @@ def main(config):
 if __name__ == "__main__":
 
     config = configparser.ConfigParser()
-    config.read("./args.txt")
+    config.optionxform = str
+    config.read("/data/bdar/xview3-reference/reference/args.txt")
 
     print(f"There are {torch.cuda.device_count()} GPUs available")
 

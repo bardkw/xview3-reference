@@ -1,10 +1,10 @@
 [DEFAULT]
-TrainImageFolder = /home/shared-data/xview3/data/tiny/train
-TrainChipsPath =  /home/shared-data/xview3/data/tiny/chips
-TrainLabelFile =  /home/shared-data/xview3/labels/train.csv
-ValImageFolder =  /home/shared-data/xview3/data/tiny/validation
-ValChipsPath = /home/shared-data/xview3/data/tiny/chips
-ValLabelFile = /home/shared-data/xview3/labels/validation.csv
+TrainImageFolder = /data/bdar/data/download/train
+TrainChipsPath =  /data/bdar/data/download/chips
+TrainLabelFile =  /data/bdar/data/train.csv
+ValImageFolder =  /data/bdar/data/download/validation
+ValChipsPath = /data/bdar/data/download/chips
+ValLabelFile = /data/bdar/data/validation.csv
 NumPreprocWorkers = 8
 IsDistributed = False
 
